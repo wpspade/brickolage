@@ -13,13 +13,13 @@ Based on an [elegant idea] by [Tobias Bjerrome Ahlin].
 
 ### Setting up
 
-1. Add a link to the css file in the <head> tag of your *index.html*:
+1. Add a link to the css file in the ```<head>``` tag of your *index.html*:
 
 ```
 <link rel="stylesheet" href="assets/brickolage.build.css">
 ```
 
-2. Insert before your closing <body> tag add:
+2. Insert before your closing ```<body>``` tag add:
 
 ```
 <script src="assets/brickolage.build.js"></script>
