@@ -57,8 +57,8 @@ var fire = function() {
 
 | Option | Description |
 | ------ | ------ |
-| container | Specify selector or raw element. Default: *".brickolage--container"* |
-| item | Specify selector or elements (HTML collection). Default: *".brickolage--item"* |
+| container | Specify selector or element. Default: *".brickolage--container"* |
+| item | Specify selector or elements (HTMLCollection). Default: *".brickolage--item"* |
 | separatorClassName | Column separator className. Default: *"brickolage--separator"* |
 | separatorTagName | Column separator tagName. Default: *"li"* |
 | originalOrder | Determines order style. Default: *false* |
