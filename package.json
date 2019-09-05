@@ -1,0 +1,37 @@
+{
+  "name": "Brickolage",
+  "main": "./dist",
+  "author": "wpSpade",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpSpade/brickolage"
+  },
+  "scripts": {
+    "start": "webpack --mode=development --config=config/webpack.config.js",
+    "build": "webpack --mode=production --config=config/webpack.config.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.1",
+    "classnames": "^2.2.6",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "resolve-pkg": "^1.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}

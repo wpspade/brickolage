@@ -1,0 +1,168 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Brickolage demo</title>
+		<meta name="description" content="A tiny modern Masonry alternative, created with CSS3 flexbox + pure javascript.">
+		<meta name="author" content="wpSpade">
+
+		<link rel="stylesheet" href="../dist/brickolage.build.css">
+		<link rel="stylesheet" href="assets/normalize.css">
+		<link rel="stylesheet" href="assets/style.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1 class="logo">
+					<span>
+						<img src="assets/logo.svg" alt="">
+
+						Brickolage
+					</span>
+				</h1><!-- .logo -->
+			</header>
+
+			<main>
+				<div class="description">
+					<p>A tiny modern Masonry alternative, created with CSS3 flexbox + pure javascript. <br>Based on an <a target="_blank" href="https://tobiasahlin.com/blog/masonry-with-css/">elegant idea</a> by <a target="_blank" href="https://tobiasahlin.com/">Tobias Bjerrome Ahlin</a></p>
+				</div><!-- .description -->
+
+				<div class="container-holder">
+					<ul class="brickolage--container" data-brickolage>
+						<li class="brickolage--item item--1">
+							<div class="content">
+								#1
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--2">
+							<div class="content">
+								#2
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--3">
+							<div class="content">
+								#3
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--4">
+							<div class="content">
+								#4
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--5">
+							<div class="content">
+								#5
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--6">
+							<div class="content">
+								#6
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--7">
+							<div class="content">
+								#7
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--8">
+							<div class="content">
+								#8
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--9">
+							<div class="content">
+								#9
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--10">
+							<div class="content">
+								#10
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--11">
+							<div class="content">
+								#11
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--12">
+							<div class="content">
+								#12
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--13">
+							<div class="content">
+								#13
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--14">
+							<div class="content">
+								#14
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--15">
+							<div class="content">
+								#15
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--16">
+							<div class="content">
+								#16
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--17">
+							<div class="content">
+								#17
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+
+						<li class="brickolage--item item--18">
+							<div class="content">
+								#18
+							</div><!-- .content -->
+						</li><!-- .brickolage--item -->
+					</ul><!-- .brickolage--container -->
+				</div><!-- .container-holder -->
+			</main>
+
+			<footer>
+				<p>Copyright 2010-2019 <a target="_blank" href="https://wpspade.com">wpSpade</a></p>
+			</footer>
+		</div><!-- .wrapper -->
+
+		<script src="../dist/brickolage.build.js"></script>
+
+		<script>
+
+			var fire = function() {
+
+				var brickolage = new Brickolage( {
+					container: "[data-brickolage]"
+				} );
+
+				console.log( brickolage ); /* Remove this line in production!!! */
+			}
+
+			( document.readyState === "complete" || ( document.readyState !== "loading" && ! document.documentElement.doScroll ) ) && fire() || document.addEventListener( "DOMContentLoaded", fire );
+
+		</script>
+	</body>
+</html>

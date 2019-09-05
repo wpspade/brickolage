@@ -1,0 +1,190 @@
+/* Global */
+
+body {
+	font-size: 18px;
+	line-height: 1.65;
+	font-family: "Courier New", monospace;
+	color: #202020;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+	line-height: 1.125;
+}
+
+a {
+	color: #544eec;
+}
+
+a:hover, a:focus {
+	color: #ff9646;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 120px 40px;
+}
+
+.logo {
+	margin-top: 0;
+}
+
+.logo span {
+	display: block;
+	width: 322px;
+	height: 74px;
+	margin: 0 auto;
+	font-size: 0;
+	line-height: 0;
+}
+
+.logo img {
+	display: block;
+}
+
+.logo, .description {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+main {
+	margin-bottom: 80px;
+}
+
+footer {
+	text-align: center;
+}
+
+/* Gaps */
+
+.brickolage--container {
+	margin-right: -30px;
+	margin-bottom: -30px;
+}
+
+.brickolage--item {
+	padding: 0 30px 30px 0;
+}
+
+/* Decorations */
+
+.content {
+	padding: 30px 40px;
+	color: #544eec;
+	background-color: #f3f3ff;
+	border: 1px solid #c9c7fb;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px 0px rgba(84, 78, 236, 0.1);
+}
+
+/* Variable height by item width to simulate various content */
+
+.item--1 .content {
+	padding-bottom: 120%;
+}
+
+.item--2 .content {
+	padding-bottom: 60%;
+}
+
+.item--3 .content {
+	padding-bottom: 200%;
+}
+
+.item--4 .content {
+	padding-bottom: 160%;
+}
+
+.item--5 .content {
+	padding-bottom: 70%;
+}
+
+.item--6 .content {
+	padding-bottom: 140%;
+}
+
+.item--7 .content {
+	padding-bottom: 50%;
+}
+
+.item--8 .content {
+	padding-bottom: 180%;
+}
+
+.item--9 .content {
+	padding-bottom: 100%;
+}
+
+.item--10 .content {
+	padding-bottom: 30%;
+}
+
+.item--11 .content {
+	padding-bottom: 80%;
+}
+
+.item--12 .content {
+	padding-bottom: 150%;
+}
+
+.item--13 .content {
+	padding-bottom: 220%;
+}
+
+.item--14 .content {
+	padding-bottom: 70%;
+}
+
+.item--15 .content {
+	padding-bottom: 110%;
+}
+
+.item--16 .content {
+	padding-bottom: 210%;
+}
+
+.item--17 .content {
+	padding-bottom: 40%;
+}
+
+.item--18 .content {
+	padding-bottom: 90%;
+}
+
+/* Specify item width.
+ *
+ * Default:
+ * 1199px and up --> 3 columns;
+ * < 1200px --> 2 columns;
+ * < 577px --> 1 column.
+ */
+
+@media (max-width: 1199px) {
+	.brickolage--item {
+		width: 33.333%;
+		max-width: 33.333%;
+	}
+}
+
+@media (max-width: 768px) {
+	.brickolage--item {
+		width: 50%;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.brickolage--item {
+		width: 100%;
+		max-width: 100%;
+	}
+}

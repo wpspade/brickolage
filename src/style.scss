@@ -1,0 +1,52 @@
+.brickolage--container {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+
+	> * {
+		display: block;
+	}
+
+	&, > * {
+		padding: 0;
+		margin: 0;
+	}
+
+	&.brickolage--initialized {
+		flex-direction: column;
+		align-content: space-between;
+		justify-content: unset;
+	}
+}
+
+.brickolage--item {
+	width: 33.333%;
+	max-width: 33.333%;
+}
+
+.brickolage--separator {
+	flex-basis: 100%;
+	visibility: hidden;
+	position: relative;
+	z-index: -1;
+}
+
+/* Two columns */
+
+@media (max-width: 1199px) {
+	.brickolage--item {
+		width: 50%;
+		max-width: 50%;
+	}
+}
+
+/* 1 column */
+
+@media (max-width: 576px) {
+	.brickolage--item {
+		width: 100%;
+		max-width: 100%;
+	}
+}

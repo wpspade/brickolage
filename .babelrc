@@ -1,0 +1,26 @@
+{
+	"presets": [
+		[
+			"env",
+			{
+				"modules": false
+			}
+		]
+	],
+	"plugins": [
+		[
+			"transform-object-rest-spread",
+			{
+				"useBuiltIns": true
+			}
+		],
+		[
+			"transform-runtime",
+			{
+				"helpers": false,
+				"polyfill": false,
+				"regenerator": true
+			}
+		]
+	]
+}
