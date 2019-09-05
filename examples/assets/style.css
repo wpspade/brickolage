@@ -5,6 +5,7 @@ body {
 	line-height: 1.65;
 	font-family: "Courier New", monospace;
 	color: #202020;
+	background-color: #f8f8f8;
 }
 
 * {
@@ -26,6 +27,12 @@ a:hover, a:focus {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+.github-logo {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .wrapper {
