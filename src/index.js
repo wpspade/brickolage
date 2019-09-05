@@ -7,7 +7,7 @@
  * The author of the original idea is Tobias Bjerrome Ahlin.
  * Article: https://tobiasahlin.com/blog/masonry-with-css/
  *
- * Licensed GPLv3 for open source use
+ * License MIT
  *
  * Copyright 2019 wpSpade
  * https://themeforest.net/user/wpSpade
