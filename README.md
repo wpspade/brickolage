@@ -19,7 +19,7 @@ Based on an [elegant idea] by [Tobias Bjerrome Ahlin].
 <link rel="stylesheet" href="assets/brickolage.build.css">
 ```
 
-2. Insert before your closing ```<body>``` tag add:
+2. Insert before your closing ```<body>``` tag:
 
 ```
 <script src="assets/brickolage.build.js"></script>
