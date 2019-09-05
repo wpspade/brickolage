@@ -31,16 +31,16 @@ Based on an [elegant idea] by [Tobias Bjerrome Ahlin].
 <ul class="brickolage--container">
 	<li class="brickolage--item">
 		...
-	</li><!-- .brickolage--item -->
+	</li>
 
 	<li class="brickolage--item">
 		...
-	</li><!-- .brickolage--item -->
+	</li>
 
 	<li class="brickolage--item">
 		...
-	</li><!-- .brickolage--item -->
-</ul><!-- .brickolage--container -->
+	</li>
+</ul>
 ```
 
 4. Initialize script in your *app.js*:
