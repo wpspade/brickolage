@@ -8,7 +8,7 @@ var Brickolage=function(e){var n={};function o(t){if(n[t])return n[t].exports;va
  * The author of the original idea is Tobias Bjerrome Ahlin.
  * Article: https://tobiasahlin.com/blog/masonry-with-css/
  *
- * Licensed GPLv3 for open source use
+ * License MIT
  *
  * Copyright 2019 wpSpade
  * https://themeforest.net/user/wpSpade
