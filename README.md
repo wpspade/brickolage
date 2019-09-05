@@ -15,13 +15,13 @@ Based on an [elegant idea] by [Tobias Bjerrome Ahlin].
 
 1. Add a link to the css file in the ```<head>``` tag of your *index.html*:
 
-```
+```html
 <link rel="stylesheet" href="assets/brickolage.build.css">
 ```
 
 2. Insert before your closing ```<body>``` tag:
 
-```
+```html
 <script src="assets/brickolage.build.js"></script>
 ```
 
