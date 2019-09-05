@@ -35,20 +35,10 @@ img {
 }
 
 .logo {
-	margin-top: 0;
-}
-
-.logo span {
-	display: block;
-	width: 322px;
-	height: 74px;
-	margin: 0 auto;
 	font-size: 0;
 	line-height: 0;
-}
-
-.logo img {
-	display: block;
+	margin-top: 0;
+	text-align: center;
 }
 
 .logo, .description {
