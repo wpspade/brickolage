@@ -5,11 +5,12 @@ Based on an [elegant idea] by [Tobias Bjerrome Ahlin].
 
 [Demo]
 
-## Advantages:
+## Features:
 
-  - Pure CSS3 flexbox layout. Number of columns is determined by item width.
+  - Pure CSS3 flexbox layout + a bit of javascript. Number of columns is determined by item width via CSS.
   - Dependency-free. Written in pure javascript.
-  - No direct DOM modifications except adding/removing grid separators and specifying item order CSS property by script.
+  - Grid items stay untouched. No removing/adding DOM elements except separators.
+  - No possible issues with absolutely positioned grid items, because it's a flexbox layout as is.
 
 ### Setting up
 
