@@ -97,6 +97,7 @@ License
 
 MIT
 
+[Twitter]
 [My WordPress themes]
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
@@ -105,3 +106,4 @@ MIT
    [elegant idea]: <https://tobiasahlin.com/blog/masonry-with-css>
    [Tobias Bjerrome Ahlin]: <https://tobiasahlin.com>
    [My WordPress themes]: <https://themeforest.net/user/wpspade>
+   [Twitter]: <https://twitter.com/wpSpade>
